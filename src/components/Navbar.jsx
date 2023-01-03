@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <div className="navbar bg-base-100 h-32">
+      <div className="navbar bg-base-200 h-32">
         <div className="navbar-start">
           <Link to="/">
             <img
@@ -34,24 +34,36 @@ function Navbar() {
                   />
                 </svg>
               </label>
-              <ul className="p-0 -translate-x-36 w-fit mt-0 z-50 text-5xl">
+              <ul className="p-0 -translate-x-36 w-fit mt-0 z-50 text-5xl hover:bg-transparent">
                 <li>
-                  <Link to="/" className="flex justify-end">
+                  <Link
+                    to="/"
+                    className="flex justify-end hover:bg-transparent"
+                  >
                     Home
                   </Link>
                 </li>
                 <li>
-                  <Link to="/about" className="flex justify-end">
+                  <Link
+                    to="/about"
+                    className="flex justify-end hover:bg-transparent"
+                  >
                     About
                   </Link>
                 </li>
                 <li>
-                  <Link to="/projects" className="flex justify-end">
+                  <Link
+                    to="/projects"
+                    className="flex justify-end hover:bg-transparent"
+                  >
                     Projects
                   </Link>
                 </li>
                 <li>
-                  <Link to="/contact" className="flex justify-end">
+                  <Link
+                    to="/contact"
+                    className="flex justify-end hover:bg-transparent"
+                  >
                     Contact
                   </Link>
                 </li>
