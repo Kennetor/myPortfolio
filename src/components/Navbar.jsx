@@ -34,7 +34,7 @@ function Navbar() {
                   />
                 </svg>
               </label>
-              <ul className="p-0 -translate-x-40 w-fit mt-0 z-50 text-5xl hover:bg-transparent">
+              <ul className="p-0 -translate-x-48 w-fit -mt-10 z-50 text-5xl hover:bg-transparent">
                 <li>
                   <Link
                     to="/"
