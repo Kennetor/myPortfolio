@@ -9,10 +9,10 @@ function Home() {
           class="object-cover h-full w-full -z-50 absolute opacity-40"
           src="/src/images/homescreen.png"
         ></img>
-        <h1 className="z-50 text-5xl flex justify-center mt-60 text-center">
+        <h1 className="z-50 text-5xl flex justify-center mt-60 text-center font-serif">
           Kenneth Tørhaug
         </h1>
-        <h4 className="text-xl flex justify-center mt-6">
+        <h4 className="text-xl flex justify-center mt-6 font-serif">
           I'm a <span className="text-green-500 ml-1"> developer</span>
         </h4>{" "}
         <btn className="flex justify-center mt-6">
