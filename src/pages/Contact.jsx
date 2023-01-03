@@ -3,7 +3,42 @@ import React from "react";
 function Contact() {
   return (
     <>
-      <div className="absolute bg-[url('https://plus.unsplash.com/premium_photo-1663050956267-fa2f5f905862?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80')] w-full h-full bg-cover opacity-60 -z-50"></div>
+      <div className="card w-96 bg-base-100 shadow-xl flex m-auto mt-20">
+        <figure>
+          <img src="/src/images/backturned.jpg" />
+        </figure>
+        <div className="card-body">
+          <h1 className="card-title justify-center text-2xl">Contact me!</h1>
+          <a href="https://github.com/KTkodehode?tab=repositories">
+            <img
+              src="/src/images/githublogo.png"
+              className="whitespace-pre w-20 inline hover:scale-125"
+            ></img>
+            <h4 className="justify-center inline ml-10">Nummer</h4>
+          </a>
+          <a href="https://github.com/KTkodehode?tab=repositories">
+            <img
+              src="/src/images/githublogo.png"
+              className="whitespace-pre w-20 inline hover:scale-125"
+            ></img>
+            <h4 className="justify-center inline ml-10">Email</h4>
+          </a>
+          <a href="https://github.com/KTkodehode?tab=repositories">
+            <img
+              src="/src/images/githublogo.png"
+              className="whitespace-pre w-20 inline hover:scale-125"
+            ></img>
+            <h4 className="justify-center inline ml-10">Adresse</h4>
+          </a>{" "}
+          <a href="https://github.com/KTkodehode?tab=repositories">
+            <img
+              src="/src/images/githublogo.png"
+              className="whitespace-pre w-20 inline hover:scale-125"
+            ></img>
+            <h4 className="justify-center inline ml-10">Github repositories</h4>
+          </a>
+        </div>
+      </div>
     </>
   );
 }
