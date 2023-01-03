@@ -3,14 +3,7 @@ import React from "react";
 function About() {
   return (
     <>
-      <div className="chat chat-start">
-        <div className="chat-bubble">
-          It's over Joakim, <br />I have the high ground.
-        </div>
-      </div>
-      <div className="chat chat-end">
-        <div className="chat-bubble">You underestimate my power!</div>
-      </div>
+      <div className="absolute bg-[url('https://images.unsplash.com/photo-1667775326475-b0166b3fa056?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80')] w-full h-full bg-cover opacity-60 -z-50"></div>
     </>
   );
 }
