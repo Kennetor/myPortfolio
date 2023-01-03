@@ -9,10 +9,10 @@ function Home() {
       </h1>
       <h4 className="text-xl flex justify-center mt-6">I'm a developer</h4>
       <btn className="flex justify-center mt-6">
-        <button className="btn btn-active bg-transparent p-5 text-gray-50 hover:bg-blue-800">
+        <button className="btn btn-active bg-transparent p-4 text-gray-50 hover:bg-blue-800">
           Hire me
         </button>
-        <button className="btn btn-active bg-transparent p-5 ml-2 text-gray-50 hover:bg-green-800">
+        <button className="btn btn-active bg-transparent p-4 ml-2 text-gray-50 hover:bg-green-800">
           Download CV
         </button>
       </btn>
