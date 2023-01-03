@@ -7,12 +7,12 @@ function Navbar() {
         <div className="navbar-start">
           <Link to="/">
             <img
-              src="/src/images/[removal.ai]_tmp-63b3f80a398f0.png"
+              src="/src/images/Logo.png"
               className="pr-4 w-60 absolute flex justify-start -top-8 -left-2 z-50"
             />
           </Link>
         </div>
-        <div className="navbar-end hidden lg:flex">
+        <div className="navbar-end lg:flex">
           <ul className="menu menu-horizontal px-2">
             <li tabIndex={0}>
               <label
