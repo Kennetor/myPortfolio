@@ -27,3 +27,14 @@ A photo: Including a photo of yourself can help visitors put a face to the name 
 
 Remember, the about page is an opportunity to showcase your personality and values as well as your professional skills and experience. Make sure to keep it interesting and engaging, and be sure to proofread it carefully to ensure that it is error-free.
 */
+
+/*
+Introduce yourself and provide some personal background information (name, age, location, etc.)
+Mention your education and any relevant professional experience
+Highlight your skills and areas of expertise
+Discuss your interests and hobbies, and how they relate to your work
+Conclude by explaining your career goals and what you hope to achieve with your portfolio
+Consider adding a memorable or unique detail about yourself to make the about section more personal and engaging.
+*/
+
+// Now Write it in the style of x dialogue
