@@ -34,7 +34,7 @@ function Navbar() {
                   />
                 </svg>
               </label>
-              <ul className="p-0 -translate-x-48 w-fit -mt-10 z-50 text-5xl hover:bg-transparent">
+              <ul className="p-0 -translate-x-44 w-fit -mt-16 z-50 text-5xl hover:bg-transparent">
                 <li>
                   <Link
                     to="/"
@@ -46,7 +46,7 @@ function Navbar() {
                 <li>
                   <Link
                     to="/contact"
-                    className="flex justify-end hover:bg-transparent"
+                    className="flex justify-end hover:bg-transparent text-black"
                   >
                     Contact
                   </Link>
@@ -54,7 +54,7 @@ function Navbar() {
                 <li>
                   <Link
                     to="/about"
-                    className="flex justify-end hover:bg-transparent"
+                    className="flex justify-end hover:bg-transparent "
                   >
                     About
                   </Link>
@@ -62,7 +62,7 @@ function Navbar() {
                 <li>
                   <Link
                     to="/projects"
-                    className="flex justify-end hover:bg-transparent"
+                    className="flex justify-end hover:bg-transparent text-black"
                   >
                     Work
                   </Link>
