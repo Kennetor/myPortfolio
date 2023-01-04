@@ -37,4 +37,4 @@ Conclude by explaining your career goals and what you hope to achieve with your 
 Consider adding a memorable or unique detail about yourself to make the about section more personal and engaging.
 */
 
-// Now Write it in the style of x dialogue
+// Now Write it in the style of game/pulitzer price winner dialogue
