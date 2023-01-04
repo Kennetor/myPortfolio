@@ -29,7 +29,7 @@ function Contact() {
               className="whitespace-pre w-20 inline hover:scale-125"
             ></img>
             <h4 className="justify-center inline ml-10">Adresse</h4>
-          </a>{" "}
+          </a>
           <a href="https://github.com/KTkodehode?tab=repositories">
             <img
               src="/src/images/githublogo.png"
