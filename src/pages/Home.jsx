@@ -13,8 +13,8 @@ function Home() {
           Kenneth Tørhaug
         </h1>
         <h4 className="text-xl flex justify-center mt-6 font-serif">
-          I'm a <span className="text-green-500 ml-1"> developer</span>
-        </h4>{" "}
+          I'm a <span className="text-green-500 ml-1">developer</span>
+        </h4>
         <btn className="flex justify-center mt-6">
           <Link to="/contact">
             <button className="btn btn-active bg-transparent p-4 text-gray-50 border-blue-500 bg-blue-500 hover:border-blue-500 hover:bg-blue-500">
