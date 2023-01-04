@@ -4,7 +4,7 @@ function Contact() {
     <>
       <div className="card w-96 bg-base-100 shadow-xl flex m-auto mt-20">
         <figure>
-          <img src="https://freeimage.host/i/HAWL9Jn" />
+          <div className="bg-[url('https://freeimage.host/i/HAWL9Jn')]" />
         </figure>
         <div className="card-body h-20">
           <h1 className="card-title justify-center text-2xl font-sans">
