@@ -1,11 +1,10 @@
 import React from "react";
-
 function Contact() {
   return (
     <>
       <div className="card w-96 bg-base-100 shadow-xl flex m-auto mt-20">
         <figure>
-          <img src="./src/images/backturned.jpg" />
+          <img src="https://freeimage.host/i/HAWL9Jn" />
         </figure>
         <div className="card-body h-20">
           <h1 className="card-title justify-center text-2xl font-sans">
@@ -19,7 +18,7 @@ function Contact() {
         <div className="ml-10">
           <a href="https://mail.google.com/mail/?view=cm&source=mailto&to=kenneth1.kodehode@gmail.com">
             <img
-              src="https://freeimage.host/i/HAWL9Jn"
+              src="/src/images/email.png"
               className="w-20 inline hover:scale-125 mb-6"
             ></img>
             <h4 className="justify-center inline ml-2 font-sans">
