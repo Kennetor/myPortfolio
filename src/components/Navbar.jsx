@@ -1,5 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
+// Image
+import Logo from "./KennethLogo.png";
+
 function Navbar() {
   return (
     <>
@@ -7,8 +11,8 @@ function Navbar() {
         <div className="navbar-start">
           <Link to="/">
             <img
-              src="/src/images/Logo.png"
-              className="pr-4 w-60 absolute flex justify-start -top-8 -left-2 z-50"
+              src={Logo}
+              className="w-32 absolute flex justify-start top-4 left-4 z-50"
             />
           </Link>
         </div>
@@ -17,7 +21,7 @@ function Navbar() {
             <li tabIndex={0}>
               <label
                 tabIndex={0}
-                className="btn btn-circle p-0 bg-transparent border-none hover:bg-transparent hover:border-none"
+                className="btn btn-circle p-0 bg-transparent border-none hover:bg-transparent hover:border-none text-sky-600"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -34,11 +38,11 @@ function Navbar() {
                   />
                 </svg>
               </label>
-              <ul className="p-0 -translate-x-44 w-fit -mt-16 z-50 text-5xl hover:bg-transparent">
+              <ul className="p-0 -translate-x-48 w-fit -mt-16 z-50 text-5xl hover:bg-transparent">
                 <li>
                   <Link
                     to="/"
-                    className="flex justify-end hover:bg-transparent"
+                    className="flex mb-8 justify-end hover:bg-transparent text-sky-300"
                   >
                     Home
                   </Link>
@@ -46,7 +50,7 @@ function Navbar() {
                 <li>
                   <Link
                     to="/contact"
-                    className="flex justify-end hover:bg-transparent text-black"
+                    className="flex justify-end hover:bg-transparent text-sky-600"
                   >
                     Contact
                   </Link>
@@ -54,7 +58,7 @@ function Navbar() {
                 <li>
                   <Link
                     to="/about"
-                    className="flex justify-end hover:bg-transparent "
+                    className="flex justify-end hover:bg-transparent text-sky-300"
                   >
                     About
                   </Link>
@@ -62,9 +66,17 @@ function Navbar() {
                 <li>
                   <Link
                     to="/projects"
-                    className="flex justify-end hover:bg-transparent text-black"
+                    className="flex justify-end hover:bg-transparent text-sky-600"
                   >
-                    Work
+                    Projects
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/skills"
+                    className="flex justify-end hover:bg-transparent text-sky-300"
+                  >
+                    Skills
                   </Link>
                 </li>
               </ul>
