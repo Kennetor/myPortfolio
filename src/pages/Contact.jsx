@@ -12,7 +12,7 @@ function Contact() {
           </h1>
         </div>
         <div className="ml-10">
-          <img src="/src/images/mobile.png" className="w-20 inline mb-6"></img>
+          <img src="./src/images/mobile.png" className="w-20 inline mb-6"></img>
           <h4 className="justify-center inline ml-6 font-sans">92 97 14 29</h4>
         </div>
         <div className="ml-10">
