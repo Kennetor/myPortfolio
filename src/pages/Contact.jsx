@@ -1,5 +1,6 @@
 import React from "react";
 import contactImage from "./images/backturned.jpg";
+
 function Contact() {
   return (
     <>
