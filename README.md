@@ -1,3 +1,4 @@
-# myPortfolio
+# This is my Portfolio Website for Web development
 
-https://ktkodehode.github.io/myPortfolio/
+<h2> Click the Logo <span> https://ktkodehode.github.io/myPortfolio/ </span> to enter the complete page </h2>
+
