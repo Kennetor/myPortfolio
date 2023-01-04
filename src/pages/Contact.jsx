@@ -5,7 +5,7 @@ function Contact() {
     <>
       <div className="card w-96 bg-base-100 shadow-xl flex m-auto mt-20">
         <figure>
-          <img src="/src/images/backturned.jpg" />
+          <img src="./src/images/backturned.jpg" />
         </figure>
         <div className="card-body h-20">
           <h1 className="card-title justify-center text-2xl font-sans">
