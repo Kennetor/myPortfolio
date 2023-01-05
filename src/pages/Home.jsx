@@ -2,14 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 // Images
-import homeScreen from "./images/homescreen.png";
+import homeScreen from "./images/hometest2.png";
 
 function Home() {
   return (
     <>
       <div className="absolute w-full h-full">
         <img
-          class="object-cover h-full w-full -z-50 absolute opacity-60"
+          class="object-cover h-full w-full -z-50 absolute opacity-40"
           src={homeScreen}
         ></img>
         <h1 className="z-50 text-5xl flex justify-center mt-60 text-center font-serif">

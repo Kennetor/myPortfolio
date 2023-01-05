@@ -1,0 +1,19 @@
+.navBarCss {
+background: transparent;
+border-left: 1px solid transparent;
+    }
+
+.navBarCss:hover {
+background: transparent;
+transform: scale(1.2);
+border-left: 10px solid #48bb78;
+}
+.navBarCssOther {
+background: transparent;
+border-left: 1px solid transparent;
+}
+.navBarCssOther:hover {
+background: transparent;
+transform: scale(1.2);
+border-left: 10px solid #48bb78;
+}

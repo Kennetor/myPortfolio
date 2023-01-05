@@ -2,7 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 // Image
-import Logo from "./KennethLogo.png";
+// import Logo from "./KennethLogo.png";
+import Logo from "../pages/images/KTlogo2.png";
+
+//CSS
+import "../css/navbar.css";
 
 function Navbar() {
   return (
@@ -12,7 +16,7 @@ function Navbar() {
           <Link to="/">
             <img
               src={Logo}
-              className="w-32 absolute flex justify-start top-4 left-4 z-50"
+              className="w-32 absolute flex justify-start top-2 left-4 z-50"
             />
           </Link>
         </div>
@@ -38,44 +42,29 @@ function Navbar() {
                   />
                 </svg>
               </label>
-              <ul className="p-0 -translate-x-48 w-fit -mt-16 z-50 text-5xl hover:bg-transparent">
+              <ul className="-translate-x-48 w-fit -mt-14 z-50 text-5xl hover:bg-transparent">
                 <li>
-                  <Link
-                    to="/"
-                    className="flex mb-8 justify-end hover:bg-transparent text-sky-300"
-                  >
+                  <Link to="/" className="navBarCss my-2 text-sky-600">
                     Home
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    to="/contact"
-                    className="flex justify-end hover:bg-transparent text-sky-600"
-                  >
+                  <Link to="/contact" className="navBarCss text-sky-400">
                     Contact
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    to="/about"
-                    className="flex justify-end hover:bg-transparent text-sky-300"
-                  >
+                  <Link to="/about" className="navBarCssOther text-sky-600">
                     About
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    to="/projects"
-                    className="flex justify-end hover:bg-transparent text-sky-600"
-                  >
+                  <Link to="/projects" className="navBarCss text-sky-400">
                     Projects
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    to="/skills"
-                    className="flex justify-end hover:bg-transparent text-sky-300"
-                  >
+                  <Link to="/skills" className="navBarCss text-sky-600">
                     Skills
                   </Link>
                 </li>
