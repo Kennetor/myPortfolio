@@ -5,7 +5,21 @@ import React from "react";
 function About() {
   return (
     <>
-      <h1>About Me</h1>
+      <div className="text-zone text-center mt-10">
+        <h1 className="text-3xl">Me, Myself & I</h1>
+        <p>
+          I'm an aspiring Front-end Developer from Norway. I have a serious
+          passion..
+        </p>
+        <p>
+          Well-organized person, problem solver, high attention to detail. Fan
+          of MMA, outdoor activities, TV series and Gadgets.
+        </p>
+        <p>
+          Interested in the entire frontend spectrum and working on new projects
+          for education with positive people.
+        </p>
+      </div>
     </>
   );
 }

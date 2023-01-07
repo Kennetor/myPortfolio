@@ -1,7 +1,6 @@
 import React from "react";
 // Images
 import contactImage from "./images/backturned.jpg";
-import github from "./images/githublogo.png";
 import email from "./images/email.png";
 import home from "./images/home.png";
 import mobile from "./images/mobile.png";
