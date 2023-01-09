@@ -1,24 +1,56 @@
 import React from "react";
 
 // Images
+import GetA from "./images/getacademy.png";
+import GetB from "./images/get2.png";
+
+function ImageOpenerA() {
+  window.open(GetA, "_blank");
+}
+function ImageOpenerB() {
+  window.open(GetB, "_blank");
+}
 
 function About() {
   return (
     <>
       <div className="text-zone text-center mt-10">
-        <h1 className="text-3xl">Me, Myself & I</h1>
-        <p>
-          I'm an aspiring Front-end Developer from Norway. I have a serious
-          passion..
+        <h1 className="text-3xl font-sans"> About Kenneth.</h1>
+        <p className="mt-2 font-light text-gray-500 dark:text-gray-400 text-xl">
+          <br />I am 29 years old and currently reside in Porsgrunn, although I
+          am originally from Trondheim.
+          <br />
+          <br />I have completed a course at GET Academy and recently undergone
+          a front-end development bootcamp at Kodehode.
+          <br />
+          <br /> I am interested in all aspects of frontend development and
+          enjoy working on new projects with like-minded individuals. <br />
+          <br />
+          In my free time, I enjoy mixed martial arts, outdoor activities,
+          trying out new apps, and watching television shows. <br />
+          My goal is to become proficient in creating visually appealing and
+          functional websites and apps, both for professional and personal
+          endeavors.
         </p>
-        <p>
-          Well-organized person, problem solver, high attention to detail. Fan
-          of MMA, outdoor activities, TV series and Gadgets.
-        </p>
-        <p>
-          Interested in the entire frontend spectrum and working on new projects
-          for education with positive people.
-        </p>
+      </div>
+      <div className="font-sans margin-auto text-center mt-10 text-xl font-medium">
+        Certificates
+      </div>
+      <div className="carousel w-64 m-auto hover:scale-110">
+        <div id="item1" className="carousel-item w-full" onClick={ImageOpenerA}>
+          <img src={GetA} />
+        </div>
+        <div id="item2" className="carousel-item w-full" onClick={ImageOpenerB}>
+          <img src={GetB} className="w-full" />
+        </div>
+      </div>
+      <div className="flex justify-center w-full py-2 gap-2 mt-4">
+        <a href="#item1" className="btn btn-xs">
+          1
+        </a>
+        <a href="#item2" className="btn btn-xs">
+          2
+        </a>
       </div>
     </>
   );
@@ -27,19 +59,11 @@ function About() {
 export default About;
 
 /*
-The about page on a portfolio website is an opportunity to give visitors a more personal and in-depth look at who you are and what you do. Here are some things you might consider including on your about page:
-
-A personal statement or bio: This could be a short paragraph or a couple of sentences introducing yourself and outlining your professional background and goals.
-
-A list of your skills and expertise: This could include technical skills, such as programming languages and frameworks, as well as soft skills, such as communication and problem-solving.
-
-Your education and work experience: This could include a summary of your education (e.g., degrees or certifications) and a list of your previous jobs or internships.
-
-Personal interests and hobbies: While not directly related to your professional work, including a bit of personal information can help visitors get to know you better and make a connection with you.
-
-A photo: Including a photo of yourself can help visitors put a face to the name and make your website feel more personal.
-
-Remember, the about page is an opportunity to showcase your personality and values as well as your professional skills and experience. Make sure to keep it interesting and engaging, and be sure to proofread it carefully to ensure that it is error-free.
+"Hello, my name is Kenneth. I am 29 years old and currently reside in Porsgrunn, although I am originally from Trondheim. 
+I have a background in hardware testing and have recently completed a course at GET-academy as well as a frontend bootcamp called Kodehode. 
+I am interested in all aspects of frontend development and enjoy working on new projects with like-minded individuals. 
+In my free time, I enjoy mixed martial arts, outdoor activities, trying out new apps, and watching television shows. 
+My goal is to become proficient in creating visually appealing and functional websites and apps, both for professional and personal endeavors."
 */
 
 /*

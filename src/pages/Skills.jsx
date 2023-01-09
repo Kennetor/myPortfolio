@@ -46,6 +46,10 @@ function Skills() {
         <kbd className="kbd">O</kbd>
         <kbd className="kbd">N</kbd>
       </div>
+      <div className="other">
+        {/* Bilder: Figma, react, tailwind, daisyui, SQL, Asp.net, mvc, html,css,
+        js, python, java */}
+      </div>
     </>
   );
 }
