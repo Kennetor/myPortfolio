@@ -14,7 +14,7 @@ function Projects() {
       <div className="text-center text-4xl mt-10">Projects</div>
       <div className="flex flex-col w-9/12 lg:flex-row m-auto mt-10">
         <a
-          href="https://github.com/KTkodehode/Julekalender-TeamGang"
+          href="https://ktkodehode.github.io/Julekalender-TeamGang/"
           className="w-full"
         >
           <div className="flex-grow h-64 card bg-base-300 rounded-box place-items-center">
