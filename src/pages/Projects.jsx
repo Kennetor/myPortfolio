@@ -25,7 +25,7 @@ function Projects() {
               src={isHovered ? christmasPreview : christmas}
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
-              className="h-full w-full hover:scale-110 rounded-3xl"
+              className="h-full w-full hover:scale-105 rounded-3xl"
             />
           </div>
         </a>
@@ -40,13 +40,13 @@ function Projects() {
           >
             <img
               src={scoreCard}
-              className="h-96 w-full hover:scale-110 rounded-3xl"
+              className="h-96 w-full hover:scale-105 rounded-3xl"
             />
           </div>
         </a>
       </div>
       <div className="divider lg:divider-vertical"></div>
-      <div className="flex flex-col w-7/12 lg:flex-row m-auto mt-10">
+      <div className="flex flex-col w-7/12 lg:flex-row m-auto mt-2">
         <a
           href="https://ktkodehode.github.io/vite-styling-opg/"
           className="w-full"
@@ -54,19 +54,19 @@ function Projects() {
           <div className="flex-grow h-full card rounded-box place-items-center">
             <img
               src={beardSite}
-              className="h-96 w-full hover:scale-110 rounded-3xl"
+              className="h-96 w-full hover:scale-105 rounded-3xl"
             />
           </div>
         </a>
         <div className="divider lg:divider-horizontal"></div>
-        <a href="#" className="w-full">
+        <a href="https://github.com/Visuvi/TVDB" className="w-full">
           <div
             className="flex-grow h-64 card rounded-box place-items-center"
             href="www.google.com"
           >
             <img
               src={Kmdb}
-              className="h-96 w-full hover:scale-110 rounded-3xl opacity-70"
+              className="h-96 w-full hover:scale-105 rounded-3xl opacity-70"
             />
           </div>
         </a>
