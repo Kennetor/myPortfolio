@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import contactImage from "./images/backturned.jpg";
 import christmas from "./images/christmasproject.png";
 import christmasPreview from "./images/previewGif.gif";
+import scoreCard from "./images/scorecard.png";
+import beardSite from "./images/beardsite.png";
 
 // Component
 import ProjectWindow from "../components/ProjectWindow";
@@ -17,24 +19,27 @@ function Projects() {
           href="https://ktkodehode.github.io/Julekalender-TeamGang/"
           className="w-full"
         >
-          <div className="flex-grow h-64 card bg-base-300 rounded-box place-items-center">
+          <div className="flex-grow h-96 card bg-base-300 rounded-box place-items-center">
             <img
               src={isHovered ? christmasPreview : christmas}
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
-              className="h-64 w-full hover:scale-110 rounded-3xl"
+              className="h-full w-full hover:scale-110 rounded-3xl"
             />
           </div>
         </a>
         <div className="divider lg:divider-horizontal"></div>
-        <a href="#" className="w-full">
+        <a
+          href="https://ktkodehode.github.io/ScrimbaBasketScoreCard/"
+          className="w-full"
+        >
           <div
-            className="flex-grow h-64 card bg-base-300 rounded-box place-items-center"
-            href="www.google.com"
+            className="flex-grow h-96 card bg-base-300 rounded-box place-items-center"
+            href="#"
           >
             <img
-              src={contactImage}
-              className="h-64 w-full hover:scale-110 rounded-3xl"
+              src={scoreCard}
+              className="h-96 w-full hover:scale-110 rounded-3xl"
             />
           </div>
         </a>
@@ -65,11 +70,14 @@ function Projects() {
       </div>
       <div className="divider lg:divider-vertical"></div>
       <div className="flex flex-col w-9/12 lg:flex-row m-auto mt-10">
-        <a href="#" className="w-full">
-          <div className="flex-grow h-64 card bg-base-300 rounded-box place-items-center">
+        <a
+          href="https://ktkodehode.github.io/vite-styling-opg/"
+          className="w-full"
+        >
+          <div className="flex-grow h-full card bg-base-300 rounded-box place-items-center">
             <img
-              src={contactImage}
-              className="h-64 w-full hover:scale-110 rounded-3xl"
+              src={beardSite}
+              className="h-96 w-full hover:scale-110 rounded-3xl"
             />
           </div>
         </a>
@@ -81,7 +89,7 @@ function Projects() {
           >
             <img
               src={contactImage}
-              className="h-64 w-full hover:scale-110 rounded-3xl"
+              className="h-96 w-full hover:scale-110 rounded-3xl"
             />
           </div>
         </a>
