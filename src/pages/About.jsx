@@ -36,7 +36,7 @@ function About() {
       <div className="font-sans margin-auto text-center mt-10 text-xl font-medium">
         Certificates
       </div>
-      <div className="carousel w-64 m-auto hover:scale-110">
+      <div className="carousel w-64 m-auto hover:scale-110 opacity-70">
         <div id="item1" className="carousel-item w-full" onClick={ImageOpenerA}>
           <img src={GetA} />
         </div>

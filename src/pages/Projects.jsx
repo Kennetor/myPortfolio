@@ -5,6 +5,7 @@ import christmas from "./images/christmasproject.png";
 import christmasPreview from "./images/previewGif.gif";
 import scoreCard from "./images/scorecard.png";
 import beardSite from "./images/beardsite.png";
+import Kmdb from "./images/kmdb.png";
 
 // Component
 import ProjectWindow from "../components/ProjectWindow";
@@ -13,13 +14,13 @@ function Projects() {
   const [isHovered, setIsHovered] = useState(false);
   return (
     <>
-      <div className="text-center text-4xl mt-10">Projects</div>
-      <div className="flex flex-col w-9/12 lg:flex-row m-auto mt-10">
+      <div className="text-center text-5xl">Projects</div>
+      <div className="flex flex-col w-7/12 lg:flex-row m-auto mt-6">
         <a
           href="https://ktkodehode.github.io/Julekalender-TeamGang/"
           className="w-full"
         >
-          <div className="flex-grow h-96 card bg-base-300 rounded-box place-items-center">
+          <div className="flex-grow h-96 card rounded-box place-items-center">
             <img
               src={isHovered ? christmasPreview : christmas}
               onMouseEnter={() => setIsHovered(true)}
@@ -34,7 +35,7 @@ function Projects() {
           className="w-full"
         >
           <div
-            className="flex-grow h-96 card bg-base-300 rounded-box place-items-center"
+            className="flex-grow h-96 card rounded-box place-items-center"
             href="#"
           >
             <img
@@ -43,38 +44,14 @@ function Projects() {
             />
           </div>
         </a>
-
-        {/* <div className="flex m-auto">
-          <div className="flex-grow h-64 w-auto card rounded-box place-items-center">
-            <ProjectWindow
-              imageSrc={christmas}
-              aHref="https://github.com/KTkodehode/Julekalender-TeamGang"
-            />
-          </div>
-          <div className="divider lg:divider-horizontal"></div>
-          <div className="flex-grow h-64 card rounded-box place-items-center">
-            <ProjectWindow imageSrc={christmas} />
-          </div>
-        </div>
       </div>
       <div className="divider lg:divider-vertical"></div>
-      <div className="flex  m-auto">
-        <div className="flex-grow h-64 card rounded-box place-items-center">
-          <ProjectWindow imageSrc={christmas} />
-        </div>
-        <div className="divider lg:divider-horizontal"></div>
-        <div className="flex-grow h-64 card rounded-box place-items-center">
-          <ProjectWindow imageSrc={christmas} />
-        </div>
-      </div> */}
-      </div>
-      <div className="divider lg:divider-vertical"></div>
-      <div className="flex flex-col w-9/12 lg:flex-row m-auto mt-10">
+      <div className="flex flex-col w-7/12 lg:flex-row m-auto mt-10">
         <a
           href="https://ktkodehode.github.io/vite-styling-opg/"
           className="w-full"
         >
-          <div className="flex-grow h-full card bg-base-300 rounded-box place-items-center">
+          <div className="flex-grow h-full card rounded-box place-items-center">
             <img
               src={beardSite}
               className="h-96 w-full hover:scale-110 rounded-3xl"
@@ -84,12 +61,12 @@ function Projects() {
         <div className="divider lg:divider-horizontal"></div>
         <a href="#" className="w-full">
           <div
-            className="flex-grow h-64 card bg-base-300 rounded-box place-items-center"
+            className="flex-grow h-64 card rounded-box place-items-center"
             href="www.google.com"
           >
             <img
-              src={contactImage}
-              className="h-96 w-full hover:scale-110 rounded-3xl"
+              src={Kmdb}
+              className="h-96 w-full hover:scale-110 rounded-3xl opacity-70"
             />
           </div>
         </a>
@@ -99,14 +76,3 @@ function Projects() {
 }
 
 export default Projects;
-
-{
-  /* <div className="flex-grow h-64 card bg-base-300 rounded-box place-items-center">
-<img
-  src={isHovered ? christmasPreview : christmas}
-  onMouseEnter={() => setIsHovered(true)}
-  onMouseLeave={() => setIsHovered(false)}
-  className="h-64 w-full hover:scale-110 hover:z-50 rounded-3xl"
-/>
-</div> */
-}

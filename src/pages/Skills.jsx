@@ -1,7 +1,14 @@
+// Images
+import img from "./images/backturned.jpg";
+// Component
+import SkillsComp from "../components/SkillsComp";
+
 function Skills() {
   return (
     <>
-      <h2 className="text-center text-4xl mt-10">Languages I speak</h2>
+      <div className="text-4xl text-zone text-center mt-10">Coming Soon</div>
+      <SkillsComp picLink="#link" pic={img} className="" />
+      {/* <h2 className="text-center text-4xl mt-10">Languages I speak</h2>
       <div className="text-center mt-10">
         <kbd className="kbd">J</kbd>
         <kbd className="kbd">A</kbd>
@@ -47,11 +54,13 @@ function Skills() {
         <kbd className="kbd">N</kbd>
       </div>
       <div className="other">
-        {/* Bilder: Figma, react, tailwind, daisyui, SQL, Asp.net, mvc, html,css,
-        js, python, java */}
-      </div>
+      </div> */}
     </>
   );
+}
+{
+  /* Bilder: Figma, react, tailwind, daisyui, SQL, Asp.net, mvc, html,css,
+js, python, java */
 }
 export default Skills;
 /* 
