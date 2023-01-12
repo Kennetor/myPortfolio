@@ -8,23 +8,25 @@ import mobile from "./images/mobile.png";
 function Contact() {
   return (
     <>
-      <div className="card w-96 bg-base-100 shadow-xl flex m-auto mt-20">
+      {" "}
+      <div className="navbar-center absolute top-8 right-1/2 translate-x-28">
+        <a className="font-serif text-5xl">Kontakt info</a>
+      </div>
+      <div className="card md:w-2/3 xl:w-1/3 bg-base-100 shadow-xl flex m-auto mt-10">
         <figure>
           <img src={contactImage} />
         </figure>
-        <div className="card-body h-20">
-          <h1 className="card-title justify-center text-2xl font-sans">
-            Contact me!
-          </h1>
-        </div>
-        <div className="ml-6">
+
+        <div className="ml-6 mt-10">
           <img src={mobile} className="h-28 inline"></img>
-          <h4 className="justify-center inline ml-4 font-sans">92 97 14 29</h4>
+          <h4 className="justify-center inline ml-10 text-3xl font-sans">
+            92 97 14 29
+          </h4>
         </div>
         <div className="ml-10">
           <a href="https://mail.google.com/mail/?view=cm&source=mailto&to=kenneth1.kodehode@gmail.com">
             <img src={email} className="w-20 inline hover:scale-125 mb-6"></img>
-            <h4 className="justify-center inline ml-2 font-sans">
+            <h4 className="justify-center inline ml-10 font-sans text-3xl">
               Kenneth1.kodehode@gmail.com
             </h4>
           </a>
@@ -36,7 +38,7 @@ function Contact() {
               alt=""
               className="w-20 inline hover:scale-125 mb-6"
             ></img>
-            <h4 className="justify-center inline ml-2 font-sans">
+            <h4 className="justify-center inline ml-10 font-sans text-3xl">
               Nygata 16b, 3950 Brevik
             </h4>
           </a>

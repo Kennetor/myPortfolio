@@ -42,25 +42,25 @@ function Navbar() {
                   />
                 </svg>
               </label>
-              <ul className="-translate-x-48 w-fit -mt-14 z-50 text-5xl hover:bg-transparent">
+              <ul className="-translate-x-48  -mt-14 z-50 text-5xl">
                 <li>
-                  <Link to="/" className="navBarCss my-2 text-sky-600">
-                    Home
+                  <Link to="/" className="navBarCss  text-sky-600">
+                    Hjem
                   </Link>
                 </li>
                 <li>
-                  <Link to="/contact" className="navBarCss text-sky-400">
-                    Contact
+                  <Link to="/about" className="navBarCss text-sky-400">
+                    Meg
                   </Link>
                 </li>
                 <li>
-                  <Link to="/about" className="navBarCssOther text-sky-600">
-                    About
+                  <Link to="/contact" className="navBarCssOther text-sky-600">
+                    Kontakt
                   </Link>
                 </li>
                 <li>
                   <Link to="/projects" className="navBarCss text-sky-400">
-                    Projects
+                    Prosjekt
                   </Link>
                 </li>
                 <li>

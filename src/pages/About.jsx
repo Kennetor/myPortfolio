@@ -1,56 +1,30 @@
 import React from "react";
 
-// Images
-import GetA from "./images/getacademy.png";
-import GetB from "./images/get2.png";
-
-function ImageOpenerA() {
-  window.open(GetA, "_blank");
-}
-function ImageOpenerB() {
-  window.open(GetB, "_blank");
-}
-
 function About() {
   return (
     <>
-      <div className="text-zone text-center mt-10">
-        <h1 className="text-3xl font-sans"> About Kenneth.</h1>
-        <p className="mt-2 font-light text-gray-500 dark:text-gray-400 text-xl">
-          <br />I am 29 years old and currently reside in Porsgrunn, although I
-          am originally from Trondheim.
+      <div className="navbar-center absolute top-8 right-1/2 translate-x-28">
+        <a className="font-serif text-5xl">Om meg</a>
+      </div>
+      <div className="text-zone text-left mt-10">
+        <p className="mt-2 font-light text-gray-500 dark:text-gray-400 text-3xl flex">
           <br />
-          <br />I have completed a course at GET Academy and recently undergone
-          a front-end development bootcamp at Kodehode.
+          Er 29 år gammel og bor for tiden i Porsgrunn, selv om jeg er
+          opprinnelig fra Trondheim.
           <br />
-          <br /> I am interested in all aspects of frontend development and
-          enjoy working on new projects with like-minded individuals. <br />
           <br />
-          In my free time, I enjoy combat sports, outdoor activities, trying out
-          new apps, and watching television shows. <br />
-          My goal is to become proficient in creating visually appealing and
-          functional websites and apps, both for professional and personal
-          endeavors.
+          Jeg har fullført et kurs på GET Academy og nylig gjennomgått en
+          frontend bootcamp på Kodehode.
+          <br />
+          <br /> Jeg er interessert i alle aspekter av frontend-utvikling og
+          liker å jobbe med nye prosjekter sammen med likesinnede personer.
+          <br />
+          <br />
+          På fritiden liker jeg å følge med på kampsport, utendørsaktiviteter,
+          prøve ut nye apper, og se på TV-serier. Målet mitt er å bli flink til
+          å lage visuelt tiltalende og funksjonelle nettsteder og apper, både
+          for profesjonelle og personlige formål.
         </p>
-      </div>
-      <div className="font-sans margin-auto text-center mt-10 text-xl font-medium">
-        Certificates
-      </div>
-      <div className="carousel w-64 m-auto hover:scale-110 opacity-70">
-        <div id="item1" className="carousel-item w-full" onClick={ImageOpenerA}>
-          <img src={GetA} />
-        </div>
-        <div id="item2" className="carousel-item w-full" onClick={ImageOpenerB}>
-          <img src={GetB} className="w-full" />
-        </div>
-      </div>
-      <div className="flex justify-center w-full py-2 gap-2 mt-4">
-        <a href="#item1" className="btn btn-xs">
-          1
-        </a>
-        <a href="#item2" className="btn btn-xs">
-          2
-        </a>
       </div>
     </>
   );

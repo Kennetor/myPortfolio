@@ -19,3 +19,7 @@
   -webkit-text-size-adjust: 100%;
 }
 
+.imageSize {
+  width: 650px;
+  height: 400px;
+}
