@@ -50,7 +50,7 @@ function Navbar() {
                 </li>
                 <li>
                   <Link to="/about" className="navBarCss text-sky-400">
-                    Meg
+                    Om meg
                   </Link>
                 </li>
                 <li>

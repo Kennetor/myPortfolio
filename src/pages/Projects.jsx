@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 // Images,  GIF
 import contactImage from "./images/backturned.jpg";
 import christmas from "./images/christmasproject.png";
@@ -12,13 +12,14 @@ import ProjectWindow from "../components/ProjectWindow";
 
 function Projects() {
   const [isHovered, setIsHovered] = useState(false);
+
   return (
     <>
       <div className="navbar-center absolute top-8 right-1/2 translate-x-28">
         <a className="font-serif text-5xl">Prosjekter</a>
       </div>
 
-      <div className="flex flex-col lg:flex-row mt-6 justify-evenly">
+      <div className="flex flex-col lg:flex-row mt-6 justify-evenly opacity-80">
         <ProjectWindow
           imageSrc={isHovered ? christmasPreview : christmas}
           aHref="https://ktkodehode.github.io/Julekalender-TeamGang/"
@@ -35,7 +36,7 @@ function Projects() {
       </div>
       <div className="divider lg:divider-vertical"></div>
 
-      <div className="flex flex-col lg:flex-row mt-6 justify-evenly">
+      <div className="flex flex-col lg:flex-row mt-6 justify-evenly opacity-70">
         <ProjectWindow
           imageSrc={beardSite}
           aHref="https://ktkodehode.github.io/vite-styling-opg/"

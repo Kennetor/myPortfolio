@@ -1,9 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import CV from "../cv/test.pdf";
 // Images
 import homeScreen from "./images/hometest2.png";
 
+function CvOpen() {
+  window.open(CV, "_blank");
+}
 function Home() {
   return (
     <>
@@ -25,10 +29,11 @@ function Home() {
               Kontakt meg
             </button>
           </Link>
-          <button className="rounded-xl bg-transparent text-xl font-semibold p-4 ml-6 text-gray-50 border-blue-500 border-2  hover:border-blue-500 hover:bg-blue-500">
-            <a href="/src/cv/cv-test.txt" download>
-              Åpne CV
-            </a>
+          <button
+            className="rounded-xl bg-transparent text-xl font-semibold p-4 ml-6 text-gray-50 border-blue-500 border-2  hover:border-blue-500 hover:bg-blue-500"
+            onClick={CvOpen}
+          >
+            Åpne CV
           </button>
         </div>
       </div>
