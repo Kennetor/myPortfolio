@@ -26,8 +26,8 @@ function About() {
           <br /> I am interested in all aspects of frontend development and
           enjoy working on new projects with like-minded individuals. <br />
           <br />
-          In my free time, I enjoy mixed martial arts, outdoor activities,
-          trying out new apps, and watching television shows. <br />
+          In my free time, I enjoy combat sports, outdoor activities, trying out
+          new apps, and watching television shows. <br />
           My goal is to become proficient in creating visually appealing and
           functional websites and apps, both for professional and personal
           endeavors.
