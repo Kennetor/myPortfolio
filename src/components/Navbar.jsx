@@ -11,7 +11,7 @@ import "../css/navbar.css";
 function Navbar() {
   return (
     <>
-      <div className="navbar bg-base-200 h-32">
+      <div className="navbar bg-base-200 h-32 z-50">
         <div className="navbar-start">
           <Link to="/">
             <img
@@ -42,7 +42,7 @@ function Navbar() {
                   />
                 </svg>
               </label>
-              <ul className="-translate-x-48  -mt-14 z-50 text-5xl">
+              <ul className="-translate-x-44  -mt-10 z-50 text-5xl">
                 <li>
                   <Link to="/" className="navBarCss  text-sky-600">
                     Hjem
@@ -50,7 +50,7 @@ function Navbar() {
                 </li>
                 <li>
                   <Link to="/about" className="navBarCss text-sky-400">
-                    Om meg
+                    Profil
                   </Link>
                 </li>
                 <li>

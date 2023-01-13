@@ -1,4 +1,5 @@
 import React from "react";
+import Certificate from "../components/certificate";
 
 // img
 import profil from "../pages/images/Profil-Bilde.png";
@@ -9,8 +10,13 @@ function About() {
       <div className="navbar-center absolute top-8 right-1/2 translate-x-32">
         <a className="font-serif text-5xl">Om meg</a>
       </div>
-      <div className="text-zone text-left mt-10 flex flex-wrap ml-8">
-        <p className="mt-2 font-light text-gray-500 dark:text-gray-400 text-3xl flex w-1/2 flex-wrap mr-auto">
+      <div className="text-zone text-left flex flex-wrap p-12">
+        <div className="avatar">
+          <div className="h-full w-96">
+            <img src={profil} className="rounded-b-[200px] opacity-80 ml-2" />
+          </div>
+        </div>
+        <p className="mt-24 font-light text-gray-500 dark:text-gray-400 text-3xl flex w-1/2 flex-wrap m-auto z-50">
           <br />
           Er 29 år gammel og bor for tiden i Porsgrunn, selv om jeg er
           opprinnelig fra Trondheim.
@@ -28,11 +34,6 @@ function About() {
           å lage visuelt tiltalende og funksjonelle nettsteder og apper, både
           for profesjonelle og personlige formål.
         </p>
-        <div className="avatar-1/2 ml-auto">
-          <div className="h-full w-96">
-            <img src={profil} className="rounded-bl-2xl opacity-80" />
-          </div>
-        </div>
       </div>
     </>
   );

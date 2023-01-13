@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 // Images,  GIF
-import contactImage from "./images/backturned.jpg";
 import christmas from "./images/christmasproject.png";
 import christmasPreview from "./images/previewGif.gif";
 import scoreCard from "./images/scorecard.png";
@@ -23,7 +22,6 @@ function Projects() {
         <ProjectWindow
           imageSrc={isHovered ? christmasPreview : christmas}
           aHref="https://ktkodehode.github.io/Julekalender-TeamGang/"
-          //   onMouseEnter={() => setIsHovered(true)}
           mEnter={() => setIsHovered(true)}
           mLeave={() => setIsHovered(false)}
         />
