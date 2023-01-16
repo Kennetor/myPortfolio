@@ -42,25 +42,6 @@ function About() {
 export default About;
 
 /*
-"Hello, my name is Kenneth. I am 29 years old and currently reside in Porsgrunn, although I am originally from Trondheim. 
-I have a background in hardware testing and have recently completed a course at GET-academy as well as a frontend bootcamp called Kodehode. 
-I am interested in all aspects of frontend development and enjoy working on new projects with like-minded individuals. 
-In my free time, I enjoy mixed martial arts, outdoor activities, trying out new apps, and watching television shows. 
-My goal is to become proficient in creating visually appealing and functional websites and apps, both for professional and personal endeavors."
-*/
-
-/*
-Introduce yourself and provide some personal background information (name, age, location, etc.)
-Mention your education and any relevant professional experience
-Highlight your skills and areas of expertise
-Discuss your interests and hobbies, and how they relate to your work
-Conclude by explaining your career goals and what you hope to achieve with your portfolio
-Consider adding a memorable or unique detail about yourself to make the about section more personal and engaging.
-*/
-
-// Now Write it in the style of game/pulitzer price winner dialogue
-
-/*
 Kjære [Arbeidsgiver],
 
 Jeg skriver for å uttrykke min interesse for stillingen som Junior Frontend Developer hos dere. Med en sterk lidenskap for teknologi og en nylig fullført utdanning innen frontend-utvikling, mener jeg å ha de ferdighetene og motivasjonen som trengs for å kunne bidra verdifullt til deres team.
