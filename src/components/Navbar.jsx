@@ -11,7 +11,7 @@ import "../css/navbar.css";
 function Navbar() {
   return (
     <>
-      <div className="navbar bg-base-200 h-32 z-50">
+      <div className="navbar bg-base-200 h-32 z-50 w-[29rem] xl:w-full">
         <div className="navbar-start">
           <Link to="/">
             <img

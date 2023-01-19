@@ -7,7 +7,7 @@ function ProjectWindow(props) {
         <div className="flex-grow card rounded-box"></div>
         <img
           src={props.imageSrc}
-          className="imageSize hover:scale-105 rounded-3xl"
+          className="imageSize hover:scale-105 rounded-3xl opacity-50 hover:opacity-100"
           onMouseEnter={props.mEnter}
           onMouseLeave={props.mLeave}
         />

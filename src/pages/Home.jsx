@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import CV from "../cv/test.pdf";
+import CV from "../cv/cv.pdf";
 // Images
 import homeScreen from "./images/hometest2.png";
 

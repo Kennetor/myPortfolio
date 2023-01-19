@@ -12,7 +12,7 @@ function Certificate() {
   return (
     <>
       <div>
-        <div className="font-sans margin-auto text-center mt-12 text-3xl font-medium">
+        <div className="font-sans margin-auto text-center mt-12 p-6 text-3xl font-medium">
           Certificates
         </div>
         <div className="carousel w-64 m-auto hover:scale-110 opacity-70">

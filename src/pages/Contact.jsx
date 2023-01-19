@@ -6,13 +6,13 @@ function Contact() {
   return (
     <>
       <div className="navbar-center absolute top-8 right-1/2 translate-x-28">
-        <a className="font-serif text-5xl">Kontakt info</a>
+        <a className="font-serif text-5xl ml-36">Kontakt</a>
       </div>
       <div className="card lg:w-[500px] md:w-[500px] w-[450px] bg-base-100 shadow-xl flex m-auto mt-8">
         <figure>
           <img
             src={profil}
-            className="rounded-2xl m-auto opacity-80 mt-4 lg:h-96 md:h-80 h-64"
+            className="rounded-2xl m-auto opacity-80 mt-4 lg:h-96 md:h-80 h-64 scale-75"
           />
         </figure>
 

@@ -5,6 +5,7 @@ import christmasPreview from "./images/previewGif.gif";
 import scoreCard from "./images/scorecard.png";
 import beardSite from "./images/beardshite.png";
 import Kmdb from "./images/kmdb.png";
+import rockps from "./images/rockps.png";
 
 // Component
 import ProjectWindow from "../components/ProjectWindow";
@@ -26,23 +27,28 @@ function Projects() {
           mLeave={() => setIsHovered(false)}
         />
         <div className="divider lg:divider-horizontal"></div>
-
         <ProjectWindow
           imageSrc={scoreCard}
           aHref="https://ktkodehode.github.io/ScrimbaBasketScoreCard/"
         />
+        <div className="divider lg:divider-horizontal"></div>
+        <ProjectWindow
+          imageSrc="https://beebom.com/wp-content/uploads/2018/02/discord-bots.jpg?w=730&h=487&crop=1&quality=751"
+          aHref="https://github.com/Visuvi/TVDB"
+          className="opacity-40"
+        />
       </div>
       <div className="divider lg:divider-vertical"></div>
 
-      <div className="flex flex-col lg:flex-row mt-6 justify-evenly opacity-70">
+      <div className="flex flex-col lg:flex-row mt-6 justify-evenly  opacity-70">
+        <ProjectWindow imageSrc={rockps} />
+        <div className="divider lg:divider-horizontal"></div>
+        <ProjectWindow imageSrc={Kmdb} aHref="https://github.com/Visuvi/TVDB" />
+        <div className="divider lg:divider-horizontal"></div>
         <ProjectWindow
           imageSrc={beardSite}
           aHref="https://ktkodehode.github.io/vite-styling-opg/"
         />
-
-        <div className="divider lg:divider-horizontal"></div>
-
-        <ProjectWindow imageSrc={Kmdb} aHref="https://github.com/Visuvi/TVDB" />
       </div>
     </>
   );

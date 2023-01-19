@@ -11,7 +11,7 @@ function About() {
         <a className="font-serif text-5xl">Om meg</a>
       </div>
       <div className="text-zone text-left flex flex-wrap p-12">
-        <div className="avatar">
+        <div className="avatar mt-2">
           <div className="h-full w-96">
             <img src={profil} className="rounded-b-[200px] opacity-80 ml-2" />
           </div>
@@ -40,17 +40,3 @@ function About() {
 }
 
 export default About;
-
-/*
-Kjære [Arbeidsgiver],
-
-Jeg skriver for å uttrykke min interesse for stillingen som Junior Frontend Developer hos dere. Med en sterk lidenskap for teknologi og en nylig fullført utdanning innen frontend-utvikling, mener jeg å ha de ferdighetene og motivasjonen som trengs for å kunne bidra verdifullt til deres team.
-
-Jeg fullførte nylig en 12 ukers intensiv kurs innen frontend-utvikling, hvor jeg fikk praktisk erfaring med HTML, CSS, JavaScript og React. I tillegg til denne formelle utdanningen, har jeg også utviklet mine ferdigheter gjennom selvstudium og personlige prosjekter.
-
-Jeg er en rask lærer og trives i et samarbeidsorientert miljø. Jeg er sikker på at min entusiasme for teknologi og min vilje til å konstant forbedre meg vil gjøre meg til en verdifull ressurs for deres team.
-
-Takk for at dere vurderer min søknad. Jeg gleder meg til å få muligheten til å diskutere mine kvalifikasjoner ytterligere og hvordan jeg kan bidra til suksessen til deres selskap.
-
-Med vennlig hilsen
-*/
