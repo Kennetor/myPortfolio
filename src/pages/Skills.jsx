@@ -1,4 +1,3 @@
-// Images
 // Component
 import Certificate from "../components/certificate";
 import SkillsComp from "../components/SkillsComp";
@@ -20,7 +19,7 @@ function Skills() {
         "
         >
           <Certificate />
-          <div className="m-auto mt-10 w-36 ml-20 text-center text-2xl font-serif">
+          <div className="m-auto mt-10 w-36 ml-96 text-center text-2xl font-serif">
             <h1 className="p-8">GITHUB</h1>
             <SkillsComp
               pic={"https://cdn-icons-png.flaticon.com/512/25/25231.png"}

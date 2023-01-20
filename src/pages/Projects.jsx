@@ -6,12 +6,15 @@ import scoreCard from "./images/scorecard.png";
 import beardSite from "./images/beardshite.png";
 import Kmdb from "./images/kmdb.png";
 import rockps from "./images/rockps.png";
-
+import hoverDisc from "./images/discordbotimg.png";
+// CSS
+import "../css/index.css";
 // Component
 import ProjectWindow from "../components/ProjectWindow";
 
 function Projects() {
   const [isHovered, setIsHovered] = useState(false);
+  const [isHovered2, setIsHovered2] = useState(false);
 
   return (
     <>
@@ -33,9 +36,15 @@ function Projects() {
         />
         <div className="divider lg:divider-horizontal"></div>
         <ProjectWindow
-          imageSrc="https://beebom.com/wp-content/uploads/2018/02/discord-bots.jpg?w=730&h=487&crop=1&quality=751"
+          imageSrc={
+            isHovered2
+              ? hoverDisc
+              : "https://beebom.com/wp-content/uploads/2018/02/discord-bots.jpg?w=730&h=487&crop=1&quality=751"
+          }
           aHref="https://github.com/Visuvi/TVDB"
           className="opacity-40"
+          mEnter={() => setIsHovered2(true)}
+          mLeave={() => setIsHovered2(false)}
         />
       </div>
       <div className="divider lg:divider-vertical"></div>
