@@ -50,7 +50,10 @@ function Projects() {
       <div className="divider lg:divider-vertical"></div>
 
       <div className="flex flex-col lg:flex-row mt-6 justify-evenly  opacity-70">
-        <ProjectWindow imageSrc={rockps} />
+        <ProjectWindow
+          imageSrc={rockps}
+          aHref="https://github.com/KTkodehode/rockps"
+        />
         <div className="divider lg:divider-horizontal"></div>
         <ProjectWindow imageSrc={Kmdb} aHref="https://github.com/Visuvi/TVDB" />
         <div className="divider lg:divider-horizontal"></div>
