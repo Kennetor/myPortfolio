@@ -10,7 +10,7 @@ function Skills() {
         <a className="font-serif text-5xl">Ferdigheter</a>
       </div>
       <div
-        className="grid  grid-cols-[200px_minmax(900px,_1fr)]
+        className="flex 
 "
       >
         <SkillsSection />

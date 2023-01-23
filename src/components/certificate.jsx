@@ -7,7 +7,7 @@ function ImageOpenerA() {
 function ImageOpenerB() {
   window.open(GetB, "_blank");
 }
-
+// Carousel Only works with BrowserRouter
 function Certificate() {
   return (
     <>
@@ -31,11 +31,11 @@ function Certificate() {
             <img src={GetB} className="w-full" />
           </div>
         </div>
-        <div className="flex justify-center w-full py-2 gap-2 mt-4">
-          <a href="#item1" className="btn btn-xs">
+        <div className="hidden justify-center w-full py-2 gap-2 mt-4 ">
+          <a href="#item1" className="btn">
             1
           </a>
-          <a href="#item2" className="btn btn-xs">
+          <a href="#item2" className="btn">
             2
           </a>
         </div>
