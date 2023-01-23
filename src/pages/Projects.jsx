@@ -24,36 +24,37 @@ function Projects() {
 
       <div className="flex flex-col lg:flex-row mt-6 justify-evenly opacity-80">
         <ProjectWindow
-          imageSrc={isHovered ? christmasPreview : christmas}
-          aHref="https://ktkodehode.github.io/Julekalender-TeamGang/"
-          mEnter={() => setIsHovered(true)}
-          mLeave={() => setIsHovered(false)}
+          imageSrc={rockps}
+          aHref="https://github.com/KTkodehode/rockps"
         />
         <div className="divider lg:divider-horizontal"></div>
-        <ProjectWindow
-          imageSrc={scoreCard}
-          aHref="https://ktkodehode.github.io/ScrimbaBasketScoreCard/"
-        />
-        <div className="divider lg:divider-horizontal"></div>
+
         <ProjectWindow
           imageSrc={
             isHovered2
               ? hoverDisc
               : "https://beebom.com/wp-content/uploads/2018/02/discord-bots.jpg?w=730&h=487&crop=1&quality=751"
           }
-          aHref="https://github.com/Visuvi/TVDB"
+          aHref="https://github.com/KTkodehode/DiscordBot"
           className="opacity-40"
           mEnter={() => setIsHovered2(true)}
           mLeave={() => setIsHovered2(false)}
         />
+        <div className="divider lg:divider-horizontal"></div>
+        <ProjectWindow
+          imageSrc={isHovered ? christmasPreview : christmas}
+          aHref="https://ktkodehode.github.io/Julekalender-TeamGang/"
+          mEnter={() => setIsHovered(true)}
+          mLeave={() => setIsHovered(false)}
+        />
       </div>
       <div className="divider lg:divider-vertical"></div>
-
       <div className="flex flex-col lg:flex-row mt-6 justify-evenly  opacity-70">
         <ProjectWindow
-          imageSrc={rockps}
-          aHref="https://github.com/KTkodehode/rockps"
+          imageSrc={scoreCard}
+          aHref="https://ktkodehode.github.io/ScrimbaBasketScoreCard/"
         />
+
         <div className="divider lg:divider-horizontal"></div>
         <ProjectWindow imageSrc={Kmdb} aHref="https://github.com/Visuvi/TVDB" />
         <div className="divider lg:divider-horizontal"></div>
