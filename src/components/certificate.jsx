@@ -16,7 +16,7 @@ function Certificate() {
           <div className="font-sans margin-auto text-center mt-20 p-6 text-3xl font-medium">
             Certificates
           </div>
-          <div className="carousel w-64 m-auto hover:scale-110 opacity-70">
+          <div className="carousel w-64 m-auto hover:scale-110 opacity-10 hover:opacity-100">
             <div
               id="item1"
               className="carousel-item w-full"
