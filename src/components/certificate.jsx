@@ -12,18 +12,20 @@ function Certificate() {
   return (
     <>
       <div>
-        <div className="font-sans margin-auto text-center mt-12 p-6 text-3xl font-medium">
-          Certificates
-        </div>
-        <div className="carousel w-64 m-auto hover:scale-110 opacity-70">
-          <div
-            id="item1"
-            className="carousel-item w-full"
-            onClick={ImageOpenerA}
-          >
-            <img src={GetA} />
+        <div className="mt-[35rem] ml-[20rem]">
+          <div className="font-sans margin-auto text-center mt-20 p-6 text-3xl font-medium">
+            Certificates
           </div>
-          <div
+          <div className="carousel w-64 m-auto hover:scale-110 opacity-70">
+            <div
+              id="item1"
+              className="carousel-item w-full"
+              onClick={ImageOpenerA}
+            >
+              <img src={GetA} />
+            </div>
+          </div>
+          {/* <div
             id="item2"
             className="carousel-item w-full"
             onClick={ImageOpenerB}
@@ -37,7 +39,7 @@ function Certificate() {
           </a>
           <a href="#item2" className="btn">
             2
-          </a>
+          </a> */}
         </div>
       </div>
     </>

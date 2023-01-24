@@ -22,7 +22,7 @@ function Projects() {
         <a className="font-serif text-5xl">Prosjekter</a>
       </div>
 
-      <div className="flex flex-col lg:flex-row mt-6 justify-evenly opacity-80">
+      <div className="flex flex-col lg:flex-row mt-6 justify-evenly">
         <ProjectWindow
           imageSrc={rockps}
           aHref="https://github.com/KTkodehode/rockps"
@@ -36,7 +36,6 @@ function Projects() {
               : "https://beebom.com/wp-content/uploads/2018/02/discord-bots.jpg?w=730&h=487&crop=1&quality=751"
           }
           aHref="https://github.com/KTkodehode/DiscordBot"
-          className="opacity-40"
           mEnter={() => setIsHovered2(true)}
           mLeave={() => setIsHovered2(false)}
         />
@@ -49,7 +48,7 @@ function Projects() {
         />
       </div>
       <div className="divider lg:divider-vertical"></div>
-      <div className="flex flex-col lg:flex-row mt-6 justify-evenly  opacity-70">
+      <div className="flex flex-col lg:flex-row mt-6 justify-evenly ">
         <ProjectWindow
           imageSrc={scoreCard}
           aHref="https://ktkodehode.github.io/ScrimbaBasketScoreCard/"

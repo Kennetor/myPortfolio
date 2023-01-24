@@ -19,8 +19,8 @@ function Skills() {
         "
         >
           <Certificate />
-          <div className="m-auto mt-10 w-36 ml-96 text-center text-2xl font-serif">
-            <h1 className="p-8">GITHUB</h1>
+          <div className="m-auto mt-20 w-48 -ml-[60rem] text-center text-2xl font-serif scale-150">
+            <h1 className="p-8 ml-4 flex m-auto">GITHUB</h1>
             <SkillsComp
               pic={"https://cdn-icons-png.flaticon.com/512/25/25231.png"}
               picLink="https://github.com/KTkodehode?tab=repositories"
