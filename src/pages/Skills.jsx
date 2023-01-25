@@ -1,34 +1,40 @@
 // Component
 import Certificate from "../components/certificate";
 import SkillsComp from "../components/SkillsComp";
-import SkillsSection from "./SkillsSection";
+import background from "../pages/images/skillsbackground.png";
 
 function Skills() {
   return (
     <>
-      <div className="navbar-center absolute top-8 right-1/2 translate-x-28">
-        <a className="font-serif text-5xl">Ferdigheter</a>
+      <img
+        src={background}
+        className="object-cover h-full w-full absolute opacity-30"
+      ></img>
+      <div className="absolute top-8 right-1/2 translate-x-28">
+        <a className="font-serif text-3xl xl:text-5xl text-center">
+          Ferdigheter
+        </a>
       </div>
-      <div
-        className="flex 
-"
-      >
-        <SkillsSection />
-        <div
-          className="flex m-auto place-items-center space-between
-        "
-        >
-          <Certificate />
-          <div className="m-auto mt-20 w-48 -ml-[60rem] text-center text-2xl font-serif scale-150">
-            <h1 className="p-8 ml-4 flex m-auto">GITHUB</h1>
-            <SkillsComp
-              pic={"https://cdn-icons-png.flaticon.com/512/25/25231.png"}
-              picLink="https://github.com/KTkodehode?tab=repositories"
-              className="hover:scale-110"
-            />
-          </div>
-        </div>
+      <div className="flex flex-wrap justify-around mt-10">
+        <SkillsComp img="https://cdn-icons-png.flaticon.com/512/1051/1051277.png" />
+        <SkillsComp img="https://cdn-icons-png.flaticon.com/512/732/732190.png" />
+        <SkillsComp img="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" />
       </div>
+      <div className="divider lg:divider-vertical"></div>
+      <div className="flex flex-wrap justify-around ">
+        <SkillsComp img="https://cdn.worldvectorlogo.com/logos/vitejs.svg" />
+        <SkillsComp img="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" />
+        <SkillsComp img="https://cdn.worldvectorlogo.com/logos/react-2.svg" />
+      </div>{" "}
+      <div className="divider lg:divider-vertical"></div>
+      <div className="flex flex-wrap justify-around ">
+        <SkillsComp img="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" />
+        <SkillsComp img="https://cdn-icons-png.flaticon.com/512/6132/6132221.png" />
+        <SkillsComp img="https://cdn-icons-png.flaticon.com/512/5968/5968306.png" />
+        <SkillsComp img="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" />
+      </div>
+      <div className="divider lg:divider-vertical"></div>
+      <Certificate />
     </>
   );
 }

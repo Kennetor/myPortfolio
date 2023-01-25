@@ -8,7 +8,7 @@ function Contact() {
       <div className="navbar-center absolute top-8 right-1/2 translate-x-28">
         <a className="font-serif text-5xl ml-36">Kontakt</a>
       </div>
-      <div className="card lg:w-[500px] md:w-[500px] w-[450px] bg-base-100 shadow-xl flex m-auto mt-8">
+      <div className="card lg:w-[500px] xl:w-[500px] w-[450px] bg-base-100 shadow-xl flex m-auto mt-8">
         <figure>
           <img
             src={profil}

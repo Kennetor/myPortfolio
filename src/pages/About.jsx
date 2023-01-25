@@ -12,7 +12,7 @@ function About() {
       </div>
       <div className="text-zone text-left flex flex-wrap p-12">
         <div className="avatar mt-2">
-          <div className="h-full w-96">
+          <div className="xl:h-full xl:w-96 w-72">
             <img src={profil} className="rounded-b-[200px] opacity-80 ml-2" />
           </div>
         </div>

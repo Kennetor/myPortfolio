@@ -16,10 +16,10 @@ function Home() {
           class="object-cover h-full w-full -z-50 absolute opacity-40"
           src={homeScreen}
         ></img>
-        <h1 className="z-50 text-8xl flex justify-center mt-60 text-center font-serif">
+        <h1 className="z-50 text-6xl xl:text-8xl flex justify-center mt-60 text-center font-serif">
           Kenneth Tørhaug
         </h1>
-        <div className="text-5xl flex justify-center mt-8 font-serif">
+        <div className="text-2xl xl:text-5xl flex justify-center mt-8 font-serif">
           En aspirerende
           <span className="text-green-400 ml-4">junior utvikler</span>
         </div>

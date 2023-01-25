@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 // Images,  GIF
 import christmas from "./images/christmasproject.png";
 import christmasPreview from "./images/previewGif.gif";

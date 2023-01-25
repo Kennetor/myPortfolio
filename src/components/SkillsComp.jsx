@@ -1,10 +1,15 @@
 function SkillsComp(props) {
   return (
     <>
-      <a href={props.picLink}>
-        <img src={props.pic} className={props.className}></img>
-      </a>
+      <div className="stats stats-vertical">
+        <div className="stat w-60">
+          <img src={props.img} className={props.className} />
+
+          <div className="stat-value"></div>
+        </div>
+      </div>
     </>
   );
 }
+
 export default SkillsComp;
