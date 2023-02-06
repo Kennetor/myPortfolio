@@ -17,7 +17,7 @@ function Navbar() {
   };
   return (
     <>
-      <div className="navbar bg-base-200 h-32">
+      <div className="navbar bg-base-200 h-32 z-50 w-full">
         <div className="navbar-start">
           <Link to="/">
             <img
@@ -49,6 +49,7 @@ function Navbar() {
                   />
                 </svg>
               </label>
+<<<<<<< HEAD
               {dropdownOpen && (
                 <ul className="-translate-x-48  -mt-14 z-50 text-5xl">
                   <li>
@@ -94,6 +95,35 @@ function Navbar() {
                   </li>
                 </ul>
               )}
+=======
+              <ul className="-translate-x-44  -mt-10 z-50 text-5xl">
+                <li>
+                  <Link to="/" className="navBarCss  text-sky-600">
+                    Hjem
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/about" className="navBarCss text-sky-400">
+                    Profil
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/contact" className="navBarCssOther text-sky-600">
+                    Kontakt
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/projects" className="navBarCss text-sky-400">
+                    Prosjekt
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/skills" className="navBarCss text-sky-600">
+                    Skills
+                  </Link>
+                </li>
+              </ul>
+>>>>>>> c9a3cce87a316da6de585384cb16aa35fa0c2d75
             </li>
           </ul>
         </div>

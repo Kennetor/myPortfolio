@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import CV from "../cv/test.pdf";
+import CV from "../cv/cv.pdf";
 // Images
 import homeScreen from "./images/hometest2.png";
 
@@ -16,10 +16,17 @@ function Home() {
           className="object-cover h-full w-full -z-50 absolute opacity-40"
           src={homeScreen}
         ></img>
+<<<<<<< HEAD
         <h1 className="z-50 text-7xl flex justify-center mt-20 md:mt-60 text-center font-serif">
           Kenneth Tørhaug
         </h1>
         <div className="text-2xl md:text-5xl flex justify-center mt-8 font-serif">
+=======
+        <h1 className="z-50 text-6xl xl:text-8xl flex justify-center mt-60 text-center font-serif">
+          Kenneth Tørhaug
+        </h1>
+        <div className="text-2xl xl:text-5xl flex justify-center mt-8 font-serif">
+>>>>>>> c9a3cce87a316da6de585384cb16aa35fa0c2d75
           En aspirerende
           <span className="text-green-400 ml-4">junior utvikler</span>
         </div>

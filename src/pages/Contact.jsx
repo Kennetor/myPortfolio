@@ -5,18 +5,23 @@ import profil from "./images/circleprofile.png";
 function Contact() {
   return (
     <>
+<<<<<<< HEAD
       {/* <div className="navbar-center absolute top-8 right-1/2 translate-x-28">
         <a className="font-serif text-5xl">Kontakt info</a>
+=======
+      <div className="navbar-center absolute top-8 right-1/2 translate-x-28">
+        <a className="font-serif text-5xl ml-36">Kontakt</a>
+>>>>>>> c9a3cce87a316da6de585384cb16aa35fa0c2d75
       </div>
-      <div className="card md:w-2/3 xl:w-1/3 bg-base-100 shadow-xl flex m-auto mt-8">
+      <div className="card lg:w-[500px] xl:w-[500px] w-[450px] bg-base-100 shadow-xl flex m-auto mt-8">
         <figure>
           <img
             src={profil}
-            className="h-80 w-52 rounded-xl mr-20 opacity-80 mt-4"
+            className="rounded-2xl m-auto opacity-80 mt-4 lg:h-96 md:h-80 h-64 scale-75"
           />
         </figure>
 
-        <div className="ml-10 mt-10">
+        <div className="ml-10 mt-10 w-96 sm:w-1/2 md:w-80">
           <img
             src="https://cdn-icons-png.flaticon.com/512/3059/3059502.png"
             className="w-10 inline mb-6"

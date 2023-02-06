@@ -1,16 +1,16 @@
 import GetA from "../pages/images/getacademy.png";
+<<<<<<< HEAD
 import GetB from "../pages/images/get2.png";
+=======
+>>>>>>> c9a3cce87a316da6de585384cb16aa35fa0c2d75
 
 function ImageOpenerA() {
   window.open(GetA, "_blank");
 }
-function ImageOpenerB() {
-  window.open(GetB, "_blank");
-}
-
 function Certificate() {
   return (
     <>
+<<<<<<< HEAD
       {" "}
       <div className="m-auto ">
         <div className="font-sans text-center text-3xl font-medium">
@@ -36,6 +36,27 @@ function Certificate() {
           2
         </a> */}
         </div>
+=======
+      <div className="skills">
+        <div className="flex flex-wrap justify-center">
+          <div>
+            <div className="w-40 ">
+              <h1 className="text-4xl xl:-translate-y-0 -translate-y-8 xl:-translate-x-60 opacity-100 justify-left">
+                Certificate
+              </h1>
+              <div>
+                <div>
+                  <img
+                    className="opacity-10 hover:scale-150 -translate-y-10 hover:opacity-100"
+                    onClick={ImageOpenerA}
+                    src={GetA}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+>>>>>>> c9a3cce87a316da6de585384cb16aa35fa0c2d75
       </div>
     </>
   );
