@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 // Images,  GIF
-import contactImage from "./images/backturned.jpg";
 import christmas from "./images/christmasproject.png";
 import christmasPreview from "./images/previewGif.gif";
 import scoreCard from "./images/scorecard.png";
@@ -21,30 +20,29 @@ function Projects() {
 
       <div className="flex flex-col lg:flex-row mt-6 justify-evenly opacity-80">
         <ProjectWindow
-          imageSrc={isHovered ? christmasPreview : christmas}
-          aHref="https://ktkodehode.github.io/Julekalender-TeamGang/"
-          //   onMouseEnter={() => setIsHovered(true)}
-          mEnter={() => setIsHovered(true)}
-          mLeave={() => setIsHovered(false)}
+          src={isHovered ? christmasPreview : christmas}
+          href="https://ktkodehode.github.io/Julekalender-TeamGang/"
+          onMouseEnter={() => setIsHovered(true)}
+          onMouseLeave={() => setIsHovered(false)}
         />
         <div className="divider lg:divider-horizontal"></div>
 
         <ProjectWindow
-          imageSrc={scoreCard}
-          aHref="https://ktkodehode.github.io/ScrimbaBasketScoreCard/"
+          src={scoreCard}
+          href="https://ktkodehode.github.io/ScrimbaBasketScoreCard/"
         />
       </div>
       <div className="divider lg:divider-vertical"></div>
 
       <div className="flex flex-col lg:flex-row mt-6 justify-evenly opacity-70">
         <ProjectWindow
-          imageSrc={beardSite}
-          aHref="https://ktkodehode.github.io/vite-styling-opg/"
+          src={beardSite}
+          href="https://ktkodehode.github.io/vite-styling-opg/"
         />
 
         <div className="divider lg:divider-horizontal"></div>
 
-        <ProjectWindow imageSrc={Kmdb} aHref="https://github.com/Visuvi/TVDB" />
+        <ProjectWindow src={Kmdb} href="https://github.com/Visuvi/TVDB" />
       </div>
     </>
   );
