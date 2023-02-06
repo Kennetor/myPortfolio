@@ -5,13 +5,8 @@ import profil from "./images/circleprofile.png";
 function Contact() {
   return (
     <>
-<<<<<<< HEAD
       {/* <div className="navbar-center absolute top-8 right-1/2 translate-x-28">
         <a className="font-serif text-5xl">Kontakt info</a>
-=======
-      <div className="navbar-center absolute top-8 right-1/2 translate-x-28">
-        <a className="font-serif text-5xl ml-36">Kontakt</a>
->>>>>>> c9a3cce87a316da6de585384cb16aa35fa0c2d75
       </div>
       <div className="card lg:w-[500px] xl:w-[500px] w-[450px] bg-base-100 shadow-xl flex m-auto mt-8">
         <figure>
