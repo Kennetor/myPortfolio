@@ -1,20 +1,11 @@
 import React, { useState } from "react";
-// Images,  GIF
-import christmas from "./images/christmasproject.png";
-import christmasPreview from "./images/previewGif.gif";
-import scoreCard from "./images/scorecard.png";
-import beardSite from "./images/beardshite.png";
-import Kmdb from "./images/kmdb.png";
-import rockps from "./images/rockps.png";
-import hoverDisc from "./images/discordbotimg.png";
-// CSS
-import "../css/index.css";
+
 // Component
-import ProjectWindow from "../components/ProjectWindow";
+import { MappingOutData } from "../components/ProjectWindow";
 
 function Projects() {
-  const [isHovered, setIsHovered] = useState(false);
-  const [isHovered2, setIsHovered2] = useState(false);
+  //   const [isHovered, setIsHovered] = useState(false);
+  //   const [isHovered2, setIsHovered2] = useState(false);
 
   return (
     <>
@@ -22,7 +13,9 @@ function Projects() {
         <a className="font-serif text-2xl md:text-5xl">Prosjekter</a>
       </div>
 
-      <div className="flex flex-col lg:flex-row mt-6 justify-evenly mx-2">
+      <MappingOutData />
+
+      {/* <div className="flex flex-col lg:flex-row mt-6 justify-evenly mx-2">
         <ProjectWindow
           src={rockps}
           href="https://github.com/KTkodehode/rockps"
@@ -61,7 +54,7 @@ function Projects() {
           src={beardSite}
           href="https://ktkodehode.github.io/vite-styling-opg/"
         />
-      </div>
+      </div> */}
     </>
   );
 }
