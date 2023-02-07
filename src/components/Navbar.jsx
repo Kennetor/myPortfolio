@@ -64,7 +64,7 @@ function Navbar() {
                 <li>
                   <Link
                     to="/"
-                    className="navBarCss text-sky-600 hover:text-green-300"
+                    className="navBarCss text-sky-600 hover:text-[#49DE80]"
                     onClick={handleClick}
                   >
                     Hjem
@@ -73,7 +73,7 @@ function Navbar() {
                 <li>
                   <Link
                     to="/about"
-                    className="navBarCss text-sky-400 hover:text-green-300"
+                    className="navBarCss text-sky-400 hover:text-[#49DE80]"
                     onClick={handleClick}
                   >
                     Om meg
@@ -82,7 +82,7 @@ function Navbar() {
                 <li>
                   <Link
                     to="/contact"
-                    className="navBarCssOther text-sky-600 hover:text-green-300"
+                    className="navBarCssOther text-sky-600 hover:text-[#49DE80]"
                     onClick={handleClick}
                   >
                     Kontakt
@@ -91,7 +91,7 @@ function Navbar() {
                 <li>
                   <Link
                     to="/projects"
-                    className="navBarCss text-sky-400 hover:text-green-300"
+                    className="navBarCss text-sky-400 hover:text-[#49DE80]"
                     onClick={handleClick}
                   >
                     Prosjekt
@@ -100,7 +100,7 @@ function Navbar() {
                 <li>
                   <Link
                     to="/skills"
-                    className="navBarCss text-sky-600 hover:text-green-300"
+                    className="navBarCss text-sky-600 hover:text-[#49DE80]"
                     onClick={handleClick}
                   >
                     Skills

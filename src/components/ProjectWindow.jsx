@@ -27,20 +27,20 @@ const projects = [
     githubLink: "https://github.com/KTkodehode/DiscordBot",
   },
   {
-    src: christmas,
-    githubLink: "https://ktkodehode.github.io/Julekalender-TeamGang/",
-  },
-  {
-    src: scorecard,
-    githubLink: "https://ktkodehode.github.io/ScrimbaBasketScoreCard/",
+    src: productCard,
+    githubLink: "https://ktkodehode.github.io/productcard/",
   },
   {
     src: nft,
     githubLink: "https://ktkodehode.github.io/nftchallenge/",
   },
   {
-    src: productCard,
-    githubLink: "https://ktkodehode.github.io/productcard/",
+    src: christmas,
+    githubLink: "https://ktkodehode.github.io/Julekalender-TeamGang/",
+  },
+  {
+    src: scorecard,
+    githubLink: "https://ktkodehode.github.io/ScrimbaBasketScoreCard/",
   },
   {
     src: kmdb,
@@ -81,7 +81,7 @@ export function ProjectCard({ src, githubLink, index }) {
             src={
               hoverImage && index == 2
                 ? discord
-                : hoverImage && index === 3
+                : hoverImage && index === 5
                 ? gif
                 : src
             }
