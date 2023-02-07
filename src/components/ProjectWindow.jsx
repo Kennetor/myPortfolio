@@ -1,4 +1,9 @@
+import { useState } from "react";
+// CSS
 import "../css/index.css";
+// Images
+import gif from "../pages/images/previewGif.gif";
+import discord from "../pages/images/discordbotimg.png";
 
 const projects = [
   {
@@ -33,6 +38,7 @@ export function MappingOutData() {
       {projects.map((element, index) => (
         <ProjectCard
           key={index}
+          index={index}
           src={element.src}
           githubLink={element.githubLink}
         />
@@ -41,13 +47,24 @@ export function MappingOutData() {
   );
 }
 
-export function ProjectCard({ src, githubLink }) {
+export function ProjectCard({ src, githubLink, index }) {
+  const [hoverImage, setHoverImage] = useState(false);
   return (
     <>
-      <div className="grid gap-2 m-auto mt-2 hover:scale-110 transition ease-in-out">
+      <div
+        className="grid gap-2 m-auto mt-2 hover:scale-110 transition ease-in-out"
+        onMouseEnter={() => setHoverImage(true)}
+        onMouseLeave={() => setHoverImage(false)}
+      >
         <a href={githubLink}>
           <img
-            src={src}
+            src={
+              hoverImage && index == 1
+                ? discord
+                : hoverImage && index === 2
+                ? gif
+                : src
+            }
             alt="projectImage"
             style={{
               width: "500px",
@@ -62,20 +79,3 @@ export function ProjectCard({ src, githubLink }) {
     </>
   );
 }
-
-// function ProjectWindow(props) {
-//   return (
-//     <>
-//       <a href={props.href}>
-//         <div className="flex-grow card rounded-box"></div>
-//         <img
-//           src={props.src}
-//           className="imageSize hover:scale-105 rounded-3xl"
-//           onMouseEnter={props.onMouseEnter}
-//           onMouseLeave={props.onMouseLeave}
-//         />
-//       </a>
-//     </>
-//   );
-// }
-// export default ProjectWindow;

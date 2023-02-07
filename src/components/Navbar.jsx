@@ -1,4 +1,4 @@
-// import React, { useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 // Image
@@ -8,8 +8,19 @@ import Logo from "../pages/images/KTlogo2.png";
 import "../css/navbar.css";
 
 function Navbar() {
-  //   const [dropdownVisible, setDropdownVisible] = useState(false);
-  console.log(Logo);
+  const [hover, setHover] = useState(true);
+  const [timer, setTimer] = useState(null);
+  // Sets a timer before the hover state can be shown again, so after a click it doesnt keep the hover-state
+  const handleClick = () => {
+    clearTimeout(timer);
+    setHover(false);
+    setTimer(
+      setTimeout(() => {
+        setHover(true);
+      }, 0)
+    );
+  };
+
   return (
     <>
       <div className="navbar bg-base-200 h-32 z-50 w-full">
@@ -43,12 +54,18 @@ function Navbar() {
                   />
                 </svg>
               </label>
-              <ul className="-translate-x-48  -mt-14 z-50 text-5xl">
+              {/* When the hover-state is true - here it is truthy with the "", it is visible, hidden when false */}
+              <ul
+                className={`-translate-x-48  -mt-14 z-50 text-5xl ${
+                  hover ? "" : "hidden"
+                }`}
+              >
+                {/* Each list has the onclick to trigger the delay hide function */}
                 <li>
                   <Link
                     to="/"
                     className="navBarCss text-sky-600 hover:text-green-300"
-                    //   onClick={toggleDropdown}
+                    onClick={handleClick}
                   >
                     Hjem
                   </Link>
@@ -57,6 +74,7 @@ function Navbar() {
                   <Link
                     to="/about"
                     className="navBarCss text-sky-400 hover:text-green-300"
+                    onClick={handleClick}
                   >
                     Om meg
                   </Link>
@@ -65,6 +83,7 @@ function Navbar() {
                   <Link
                     to="/contact"
                     className="navBarCssOther text-sky-600 hover:text-green-300"
+                    onClick={handleClick}
                   >
                     Kontakt
                   </Link>
@@ -73,6 +92,7 @@ function Navbar() {
                   <Link
                     to="/projects"
                     className="navBarCss text-sky-400 hover:text-green-300"
+                    onClick={handleClick}
                   >
                     Prosjekt
                   </Link>
@@ -81,6 +101,7 @@ function Navbar() {
                   <Link
                     to="/skills"
                     className="navBarCss text-sky-600 hover:text-green-300"
+                    onClick={handleClick}
                   >
                     Skills
                   </Link>
