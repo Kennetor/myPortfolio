@@ -1,6 +1,8 @@
+import "../css/index.css";
+import Logo from "../pages/images/rockps.png";
 const projects = [
   {
-    src: "https://ktkodehode.github.io/src/pages/images/rockps.png",
+    src: "../pages/images/rockps.png",
     githubLink: "https://github.com/KTkodehode/rockps",
   },
   {
@@ -8,11 +10,11 @@ const projects = [
     githubLink: "https://github.com/KTkodehode/DiscordBot",
   },
   {
-    src: "/src/pages/images/christmasproject.png",
+    src: "./src/pages/images/christmasproject.png",
     githubLink: "https://ktkodehode.github.io/Julekalender-TeamGang/",
   },
   {
-    src: "/src/pages/images/scorecard.png",
+    src: "../src/pages/images/scorecard.png",
     githubLink: "https://ktkodehode.github.io/ScrimbaBasketScoreCard/",
   },
   {
@@ -24,7 +26,7 @@ const projects = [
     githubLink: "https://ktkodehode.github.io/vite-styling-opg/",
   },
 ];
-
+console.log(Logo);
 export function MappingOutData() {
   return (
     <div className="flex flex-wrap grid-cols-2 gap-10 my-12 mx-3">

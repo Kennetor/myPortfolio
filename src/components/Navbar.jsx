@@ -9,7 +9,7 @@ import "../css/navbar.css";
 
 function Navbar() {
   //   const [dropdownVisible, setDropdownVisible] = useState(false);
-
+  console.log(Logo);
   return (
     <>
       <div className="navbar bg-base-200 h-32 z-50 w-full">
