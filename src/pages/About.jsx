@@ -8,7 +8,7 @@ function About() {
         <a className="font-serif text-3xl md:text-5xl">Om meg</a>
       </div>
       <div className="text-zone text-left mt-10 flex md:ml-8">
-        <p className="mt-2 font-light text-gray-500 dark:text-gray-400 text- md:text-2xl flex w-1/2">
+        <p className="mt-2 mx-4 font-light text-gray-500 dark:text-gray-400 text- md:text-2xl flex w-1/2">
           <br />
           Er 29 år gammel og bor for tiden i Porsgrunn, selv om jeg er
           opprinnelig fra Trondheim.
@@ -27,7 +27,7 @@ function About() {
           for profesjonelle og personlige formål.
         </p>
         <div className="avatar-96 ml-auto overflow-hidden">
-          <div className="h-full w-60 md:w-96 ">
+          <div className="h-full w-40 md:w-96 ">
             <img src={profil} className="rounded-bl-2xl opacity-80 " />
           </div>
         </div>
