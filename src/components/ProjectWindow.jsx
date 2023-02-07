@@ -9,11 +9,18 @@ import scorecard from "../pages/images/scorecard.png";
 import kmdb from "../pages/images/kmdb.png";
 import discord from "../pages/images/discordbotimg.png";
 import beard from "../pages/images/vitestyling.png";
+import urlShortener from "../pages/images/urlShortener.png";
+import productCard from "../pages/images/productCard.png";
+import nft from "../pages/images/nft.png";
 
 const projects = [
   {
     src: rockps,
     githubLink: "https://github.com/KTkodehode/rockps",
+  },
+  {
+    src: urlShortener,
+    githubLink: "https://ktkodehode.github.io/url-shortener/",
   },
   {
     src: "https://beebom.com/wp-content/uploads/2018/02/discord-bots.jpg?w=730&h=487&crop=1&quality=751",
@@ -28,6 +35,14 @@ const projects = [
     githubLink: "https://ktkodehode.github.io/ScrimbaBasketScoreCard/",
   },
   {
+    src: nft,
+    githubLink: "https://ktkodehode.github.io/vite-styling-opg/",
+  },
+  {
+    src: productCard,
+    githubLink: "https://ktkodehode.github.io/vite-styling-opg/",
+  },
+  {
     src: kmdb,
     githubLink: "https://github.com/Visuvi/TVDB",
   },
@@ -39,7 +54,7 @@ const projects = [
 
 export function MappingOutData() {
   return (
-    <div className="flex flex-wrap grid-cols-2 gap-10 my-12 mx-3">
+    <div className="flex flex-wrap gap-10 my-12 mx-3">
       {projects.map((element, index) => (
         <ProjectCard
           key={index}
@@ -64,9 +79,9 @@ export function ProjectCard({ src, githubLink, index }) {
         <a href={githubLink}>
           <img
             src={
-              hoverImage && index == 1
+              hoverImage && index == 2
                 ? discord
-                : hoverImage && index === 2
+                : hoverImage && index === 3
                 ? gif
                 : src
             }
