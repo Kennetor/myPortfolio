@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 // Component
 import { MappingOutData } from "../components/ProjectWindow";
 
@@ -15,13 +13,7 @@ function Projects() {
 
       <MappingOutData />
 
-      {/* <div className="flex flex-col lg:flex-row mt-6 justify-evenly mx-2">
-        <ProjectWindow
-          src={rockps}
-          href="https://github.com/KTkodehode/rockps"
-        />
-        <div className="divider lg:divider-horizontal"></div>
-
+      {/* 
         <ProjectWindow
           src={
             isHovered2
@@ -39,22 +31,7 @@ function Projects() {
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
         />
-      </div>
-      <div className="divider lg:divider-vertical"></div>
-      <div className="flex flex-col lg:flex-row mt-6 justify-evenly mx-2">
-        <ProjectWindow
-          src={scoreCard}
-          href="https://ktkodehode.github.io/ScrimbaBasketScoreCard/"
-        />
-
-        <div className="divider lg:divider-horizontal"></div>
-        <ProjectWindow src={Kmdb} href="https://github.com/Visuvi/TVDB" />
-        <div className="divider lg:divider-horizontal"></div>
-        <ProjectWindow
-          src={beardSite}
-          href="https://ktkodehode.github.io/vite-styling-opg/"
-        />
-      </div> */}
+  */}
     </>
   );
 }

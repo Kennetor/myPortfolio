@@ -1,8 +1,6 @@
-import "../css/index.css";
-
 const projects = [
   {
-    src: "/src/pages/images/rockps.png",
+    src: "./src/pages/images/rockps.png",
     githubLink: "https://github.com/KTkodehode/rockps",
   },
   {
@@ -14,15 +12,15 @@ const projects = [
     githubLink: "https://ktkodehode.github.io/Julekalender-TeamGang/",
   },
   {
-    src: "/src/pages/images/scorecard.png",
+    src: "./src/pages/images/scorecard.png",
     githubLink: "https://ktkodehode.github.io/ScrimbaBasketScoreCard/",
   },
   {
-    src: "/src/pages/images/kmdb.png",
+    src: "./src/pages/images/kmdb.png",
     githubLink: "https://github.com/Visuvi/TVDB",
   },
   {
-    src: "/src/pages/images/beardshite.png",
+    src: "./src/pages/images/beardshite.png",
     githubLink: "https://ktkodehode.github.io/vite-styling-opg/",
   },
 ];
