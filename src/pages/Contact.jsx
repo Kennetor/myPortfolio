@@ -5,14 +5,11 @@ import profil from "./images/circleprofile.png";
 function Contact() {
   return (
     <>
-      <div className="navbar-center absolute top-8 right-1/2 translate-x-20 md:translate-x-28">
-        <a className="font-serif text-2xl md:text-5xl">Kontakt info</a>
-      </div>
-      <div className="card card-side bg-base-100 shadow-xl mt-10 md:flex grid lg:mx-36 xl:mx-96">
-        <div className="w-60 m-auto">
-          <img src={profil} className="rounded-bl-2xl opacity-80" />
-        </div>
-        <div className="card-body grid">
+      <div className="card lg:card-side bg-base-100 shadow-xl w-fit m-auto mt-20">
+        <figure>
+          <img src={profil} alt="Album" style={{ width: "230px" }} />
+        </figure>
+        <div className="card-body m-auto">
           <div className="ml-12 mt-10">
             <img
               src="https://cdn-icons-png.flaticon.com/512/3059/3059502.png"
@@ -28,7 +25,7 @@ function Contact() {
                 src="https://cdn-icons-png.flaticon.com/512/542/542689.png"
                 className="w-10 inline hover:scale-125 mb-6"
               ></img>
-              <h4 className="justify-center inline ml-10 font-sans text-sm md:text-base">
+              <h4 className="justify-center inline ml-10 font-sans text-sm md:text-xl">
                 Kenneth1.kodehode@gmail.com
               </h4>
             </a>
