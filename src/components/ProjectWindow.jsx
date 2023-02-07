@@ -2,14 +2,17 @@ import { useState } from "react";
 // CSS
 import "../css/index.css";
 // Images
+import rockps from "../pages/images/rockps.png";
+import christmas from "../pages/images/christmasproject.png";
 import gif from "../pages/images/previewGif.gif";
+import scorecard from "../pages/images/scorecard.png";
+import kmdb from "../pages/images/kmdb.png";
 import discord from "../pages/images/discordbotimg.png";
-import test from "../pages/images/vitestyling.png";
-import tes2 from "../pages/images/vitestyling.png";
+import beard from "../pages/images/vitestyling.png";
 
 const projects = [
   {
-    src: test,
+    src: rockps,
     githubLink: "https://github.com/KTkodehode/rockps",
   },
   {
@@ -17,19 +20,19 @@ const projects = [
     githubLink: "https://github.com/KTkodehode/DiscordBot",
   },
   {
-    src: "./src/pages/images/christmasproject.png",
+    src: christmas,
     githubLink: "https://ktkodehode.github.io/Julekalender-TeamGang/",
   },
   {
-    src: { tes2 },
+    src: scorecard,
     githubLink: "https://ktkodehode.github.io/ScrimbaBasketScoreCard/",
   },
   {
-    src: "/src/pages/images/kmdb.png",
+    src: kmdb,
     githubLink: "https://github.com/Visuvi/TVDB",
   },
   {
-    src: "/src/pages/images/beardshite.png",
+    src: beard,
     githubLink: "https://ktkodehode.github.io/vite-styling-opg/",
   },
 ];
