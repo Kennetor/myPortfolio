@@ -4,10 +4,12 @@ import "../css/index.css";
 // Images
 import gif from "../pages/images/previewGif.gif";
 import discord from "../pages/images/discordbotimg.png";
+import test from "../pages/images/vitestyling.png";
+import tes2 from "../pages/images/vitestyling.png";
 
 const projects = [
   {
-    src: "/src/pages/images/rockps.png",
+    src: test,
     githubLink: "https://github.com/KTkodehode/rockps",
   },
   {
@@ -15,11 +17,11 @@ const projects = [
     githubLink: "https://github.com/KTkodehode/DiscordBot",
   },
   {
-    src: "/src/pages/images/christmasproject.png",
+    src: "./src/pages/images/christmasproject.png",
     githubLink: "https://ktkodehode.github.io/Julekalender-TeamGang/",
   },
   {
-    src: "/src/pages/images/scorecard.png",
+    src: { tes2 },
     githubLink: "https://ktkodehode.github.io/ScrimbaBasketScoreCard/",
   },
   {
