@@ -36,11 +36,11 @@ const projects = [
   },
   {
     src: nft,
-    githubLink: "https://ktkodehode.github.io/vite-styling-opg/",
+    githubLink: "https://ktkodehode.github.io/nftchallenge/",
   },
   {
     src: productCard,
-    githubLink: "https://ktkodehode.github.io/vite-styling-opg/",
+    githubLink: "https://ktkodehode.github.io/productcard/",
   },
   {
     src: kmdb,
