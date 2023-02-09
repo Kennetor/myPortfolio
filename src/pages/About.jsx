@@ -10,7 +10,7 @@ function About() {
       <div className="text-zone text-left mt-10 flex md:ml-8">
         <p className="mt-2 mx-4 font-light text-gray-500 dark:text-gray-400 text- md:text-2xl flex w-1/2">
           <br />
-          Er 29 år gammel og bor for tiden i Porsgrunn, selv om jeg er
+          Er 30 år gammel og bor for tiden i Porsgrunn, selv om jeg er
           opprinnelig fra Trondheim.
           <br />
           <br />
