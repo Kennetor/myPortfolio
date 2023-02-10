@@ -70,32 +70,30 @@ export function MappingOutData() {
 export function ProjectCard({ src, githubLink, index }) {
   const [hoverImage, setHoverImage] = useState(false);
   return (
-    <>
-      <div
-        className="grid gap-2 m-auto mt-2 hover:scale-110 transition ease-in-out"
-        onMouseEnter={() => setHoverImage(true)}
-        onMouseLeave={() => setHoverImage(false)}
-      >
-        <a href={githubLink}>
-          <img
-            src={
-              hoverImage && index == 2
-                ? discord
-                : hoverImage && index === 5
-                ? gif
-                : src
-            }
-            alt="projectImage"
-            style={{
-              width: "500px",
-              height: "350px",
-              objectfit: "cover",
-              borderRadius: "10px",
-            }}
-          />
-          <div className="divider lg:divider-vertical"></div>
-        </a>
-      </div>
-    </>
+    <div
+      className="grid gap-2 m-auto mt-2 hover:scale-110 transition ease-in-out"
+      onMouseEnter={() => setHoverImage(true)}
+      onMouseLeave={() => setHoverImage(false)}
+    >
+      <a href={githubLink}>
+        <img
+          src={
+            hoverImage && index == 2
+              ? discord
+              : hoverImage && index === 5
+              ? gif
+              : src
+          }
+          alt="projectImage"
+          style={{
+            width: "500px",
+            height: "350px",
+            objectfit: "cover",
+            borderRadius: "10px",
+          }}
+        />
+        <div className="divider lg:divider-vertical"></div>
+      </a>
+    </div>
   );
 }
