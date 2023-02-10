@@ -73,7 +73,7 @@ function Navbar() {
                 <li>
                   <Link
                     to="/about"
-                    className="navBarCss text-sky-400 hover:text-[#49DE80]"
+                    className="navBarCss text-sky-400 hover:text-[#49DE80] w-2"
                     onClick={handleClick}
                   >
                     Om meg
