@@ -6,10 +6,7 @@ import background from "../pages/images/skillsbackground.png";
 function Skills() {
   return (
     <>
-      <img
-        src={background}
-        className="h-full absolute opacity-30 w-[200vh]"
-      ></img>
+      <img src={background} className="h-full absolute opacity-30 w-full"></img>
       <div className="absolute top-8 right-1/2 translate-x-16 xl:translate-x-28">
         <a className="font-serif text-2xl md:text-5xl text-center">
           Ferdigheter
