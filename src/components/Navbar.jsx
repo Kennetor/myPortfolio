@@ -63,7 +63,7 @@ function Navbar() {
               <li>
                 <Link
                   to="/"
-                  className="navBarCss text-sky-600 hover:text-[#49DE80]"
+                  className="navBarCss text-sky-600 hover:text-[#49DE80] w-60"
                   onClick={handleClick}
                 >
                   Hjem
@@ -72,7 +72,7 @@ function Navbar() {
               <li>
                 <Link
                   to="/about"
-                  className="navBarCss text-sky-400 hover:text-[#49DE80] w-2"
+                  className="navBarCss text-sky-400 hover:text-[#49DE80]"
                   onClick={handleClick}
                 >
                   Om meg
