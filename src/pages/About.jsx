@@ -4,7 +4,7 @@ import profil from "../pages/images/Profil-Bilde.png";
 function About() {
   return (
     <>
-      <div className="navbar-center absolute top-8 right-1/2 translate-x-16 md:translate-x-32">
+      <div className="navbar-center absolute top-10 right-1/2 translate-x-16 md:translate-x-32">
         <a className="font-serif text-3xl md:text-5xl">Om meg</a>
       </div>
       <div className="text-zone text-left mt-10 flex md:ml-8">

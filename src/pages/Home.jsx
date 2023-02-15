@@ -40,3 +40,10 @@ function Home() {
 }
 
 export default Home;
+
+// Fikse width på Skills sida desktop og mobil
+// Mobile versjon fjerne dropmenu etter klikk
+// dark mode eller annet theme mode med context og tailwind config (?)
+// nytt kontakt form (AI bilde?)
+// Homepage slide animasjon?
+// Outline/Outborder på white tekst frontpage

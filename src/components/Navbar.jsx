@@ -17,7 +17,7 @@ function Navbar() {
     setTimer(
       setTimeout(() => {
         setHover(true);
-      }, 0)
+      }, 10)
     );
   };
 
@@ -58,6 +58,7 @@ function Navbar() {
               className={`-translate-x-48  -mt-14 z-50 text-5xl ${
                 hover ? "" : "hidden"
               }`}
+              onClick={handleClick}
             >
               {/* Each list has the onclick to trigger the delay hide function */}
               <li>
