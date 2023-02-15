@@ -10,7 +10,7 @@ function CvOpen() {
 }
 function Home() {
   return (
-    <div className="absolute w-full h-full">
+    <div className="absolute w-full h-[89vh]">
       <img
         className="object-cover h-full w-full -z-50 absolute opacity-40"
         src={homeScreen}

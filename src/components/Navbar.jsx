@@ -64,7 +64,7 @@ function Navbar() {
               <li>
                 <Link
                   to="/"
-                  className="navBarCss text-sky-600 hover:text-[#49DE80]"
+                  className="navBarCss text-sky-600 hover:text-[#49DE80] w-60"
                   onClick={handleClick}
                 >
                   Hjem
