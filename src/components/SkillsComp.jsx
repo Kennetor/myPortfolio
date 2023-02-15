@@ -46,15 +46,15 @@ const skills = [
   },
   {
     src: figma,
-    dataTip: "Python",
+    dataTip: "Figma",
   },
   {
     src: python,
-    dataTip: "C#",
+    dataTip: "Python",
   },
   {
     src: cshrp,
-    dataTip: "Python",
+    dataTip: "C#",
   },
   {
     src: sql,
